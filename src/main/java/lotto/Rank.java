@@ -41,4 +41,12 @@ public enum Rank {
 		}
 		throw new IllegalArgumentException("오류입니다.");
 	}
+
+	public String getExplain() {
+		return explain;
+	}
+
+	public String getWinningMoney() {
+		return winningMoney;
+	}
 }
